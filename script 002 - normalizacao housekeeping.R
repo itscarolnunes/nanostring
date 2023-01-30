@@ -1,5 +1,7 @@
 rm(list =ls())
 
+library(NanoStringNorm)
+
 #carregando os dados sem os housekeeping filtrados
 genes_norm<-read.csv("data_filter_gnorm.csv", header = T, sep = ",")
 
